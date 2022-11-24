@@ -46,11 +46,16 @@
 <body>
 
 </br>
-<form class="form-inline" role="search" action="https://duckduckgo.com/">
-  <div class="form-group">
-    <input type="text" name="q" class="form-control" placeholder="Search">
-  </div></br>
-  <button type="submit" class="btn btn-default">Search</button>
+<form method="get" id="ddgSearch" action="https://duckduckgo.com/">
+    <input type="hidden" name="sites" value=""/>
+    <input type="hidden" name="k7" value="#4a4a4a"/>
+    <input type="hidden" name="k8" value="#000000"/>
+    <input type="hidden" name="k9" value="#ffffff"/>
+    <input type="hidden" name="kx" value="#9b9b9b"/>
+    <input type="hidden" name="kj" value="#000000"/>
+    <input type="hidden" name="kt" value="p"/>
+    <input type="text" name="q" placeholder="Search…" aria-label="Search  on DuckDuckGo"/>
+    <button type="submit">Search</button>
 </form>
 	
 <p><a href="https://duckduckgo.com/">duckduckgo</a></p>
